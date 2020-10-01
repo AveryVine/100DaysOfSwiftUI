@@ -50,6 +50,7 @@ struct ContentView: View {
                 Section(header: Text("Grand Total")) {
                     Text("$\(grandTotal, specifier: "%.2f")")
                 }
+                .listRowBackground(tipSelection == 4 ? Color.red.opacity(0.5) : Color.clear)
                 
                 Section(header: Text("Amount Per Person")) {
                     Text("$\(totalPerPerson ?? 0, specifier: "%.2f")")
