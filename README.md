@@ -12,3 +12,4 @@ Note that the first 15 days teach Swift, not SwiftUI. I opted to skip these less
 | **Day 19: BetterRest**<br><br> An application to calculate your ideal bedtime using machine learning. | ![WeSplit](Assets/BetterRest.png) |
 | **Day 20: WordScramble**<br><br> A word game where you try to make as many words as possible from a given root word. | ![WordScramble](Assets/WordScramble.png) |
 | **Day 21: Animations**<br><br> Another test application that shows how animations work and interact. Lessons from this day were applied to GuessTheFlag. | ![Animations](Assets/Animations.png) |
+| **Day 22: iExpense**<br><br> An application that persistently stores expenses that you enter, and allows deletion of those expenses. | ![iExpense](Assets/iExpense.png) |
