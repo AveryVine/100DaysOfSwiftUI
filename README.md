@@ -14,3 +14,4 @@ Note that the first 15 days teach Swift, not SwiftUI. I opted to skip these less
 | **Day 21: Animations**<br><br> Another test application that shows how animations work and interact. Lessons from this day were applied to GuessTheFlag. | ![Animations](Assets/Animations.png) |
 | **Day 22: iExpense**<br><br> An application that persistently stores expenses that you enter, and allows deletion of those expenses. | ![iExpense](Assets/iExpense.png) |
 | **Day 23: Moonshot**<br><br> An application for viewing details about various NASA missions and their crewmembers. | ![Moonshot](Assets/Moonshot.png) |
+| **Day 24: Drawing**<br><br> An test application that demonstrates how to draw shapes on screen an animate them. | ![Drawing](Assets/Drawing.png) |
