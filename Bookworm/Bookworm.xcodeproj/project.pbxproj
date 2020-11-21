@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF25F22125697B7E00B32A87 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF25F22025697B7E00B32A87 /* AddBookView.swift */; };
+		FF25F22625697EAF00B32A87 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF25F22525697EAF00B32A87 /* RatingView.swift */; };
+		FF25F22B2569803100B32A87 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF25F22A2569803100B32A87 /* EmojiRatingView.swift */; };
+		FF25F230256981BD00B32A87 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF25F22F256981BD00B32A87 /* DetailView.swift */; };
+		FF4131F92569737500B1CBE0 /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4131F82569737500B1CBE0 /* BookwormApp.swift */; };
+		FF4131FB2569737500B1CBE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4131FA2569737500B1CBE0 /* ContentView.swift */; };
+		FF4131FD2569737600B1CBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4131FC2569737600B1CBE0 /* Assets.xcassets */; };
+		FF4132002569737600B1CBE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4131FF2569737600B1CBE0 /* Preview Assets.xcassets */; };
+		FF4132022569737600B1CBE0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4132012569737600B1CBE0 /* Persistence.swift */; };
+		FF4132052569737600B1CBE0 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF4132032569737600B1CBE0 /* Bookworm.xcdatamodeld */; };
+		FF4132102569737600B1CBE0 /* BookwormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41320F2569737600B1CBE0 /* BookwormTests.swift */; };
+		FF41321B2569737600B1CBE0 /* BookwormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF41321A2569737600B1CBE0 /* BookwormUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF41320C2569737600B1CBE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4131ED2569737500B1CBE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4131F42569737500B1CBE0;
+			remoteInfo = Bookworm;
+		};
+		FF4132172569737600B1CBE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4131ED2569737500B1CBE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4131F42569737500B1CBE0;
+			remoteInfo = Bookworm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF25F22025697B7E00B32A87 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		FF25F22525697EAF00B32A87 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		FF25F22A2569803100B32A87 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		FF25F22F256981BD00B32A87 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FF4131F52569737500B1CBE0 /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4131F82569737500B1CBE0 /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
+		FF4131FA2569737500B1CBE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF4131FC2569737600B1CBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4131FF2569737600B1CBE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF4132012569737600B1CBE0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FF4132042569737600B1CBE0 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		FF4132062569737600B1CBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF41320B2569737600B1CBE0 /* BookwormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookwormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF41320F2569737600B1CBE0 /* BookwormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormTests.swift; sourceTree = "<group>"; };
+		FF4132112569737600B1CBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4132162569737600B1CBE0 /* BookwormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookwormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF41321A2569737600B1CBE0 /* BookwormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormUITests.swift; sourceTree = "<group>"; };
+		FF41321C2569737600B1CBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4131F22569737500B1CBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4132082569737600B1CBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4132132569737600B1CBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4131EC2569737500B1CBE0 = {
+			isa = PBXGroup;
+			children = (
+				FF4131F72569737500B1CBE0 /* Bookworm */,
+				FF41320E2569737600B1CBE0 /* BookwormTests */,
+				FF4132192569737600B1CBE0 /* BookwormUITests */,
+				FF4131F62569737500B1CBE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4131F62569737500B1CBE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4131F52569737500B1CBE0 /* Bookworm.app */,
+				FF41320B2569737600B1CBE0 /* BookwormTests.xctest */,
+				FF4132162569737600B1CBE0 /* BookwormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4131F72569737500B1CBE0 /* Bookworm */ = {
+			isa = PBXGroup;
+			children = (
+				FF4131F82569737500B1CBE0 /* BookwormApp.swift */,
+				FF4131FA2569737500B1CBE0 /* ContentView.swift */,
+				FF25F22F256981BD00B32A87 /* DetailView.swift */,
+				FF25F22A2569803100B32A87 /* EmojiRatingView.swift */,
+				FF25F22525697EAF00B32A87 /* RatingView.swift */,
+				FF4131FC2569737600B1CBE0 /* Assets.xcassets */,
+				FF4132012569737600B1CBE0 /* Persistence.swift */,
+				FF4132062569737600B1CBE0 /* Info.plist */,
+				FF4132032569737600B1CBE0 /* Bookworm.xcdatamodeld */,
+				FF4131FE2569737600B1CBE0 /* Preview Content */,
+				FF25F22025697B7E00B32A87 /* AddBookView.swift */,
+			);
+			path = Bookworm;
+			sourceTree = "<group>";
+		};
+		FF4131FE2569737600B1CBE0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF4131FF2569737600B1CBE0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF41320E2569737600B1CBE0 /* BookwormTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF41320F2569737600B1CBE0 /* BookwormTests.swift */,
+				FF4132112569737600B1CBE0 /* Info.plist */,
+			);
+			path = BookwormTests;
+			sourceTree = "<group>";
+		};
+		FF4132192569737600B1CBE0 /* BookwormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF41321A2569737600B1CBE0 /* BookwormUITests.swift */,
+				FF41321C2569737600B1CBE0 /* Info.plist */,
+			);
+			path = BookwormUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4131F42569737500B1CBE0 /* Bookworm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF41321F2569737600B1CBE0 /* Build configuration list for PBXNativeTarget "Bookworm" */;
+			buildPhases = (
+				FF4131F12569737500B1CBE0 /* Sources */,
+				FF4131F22569737500B1CBE0 /* Frameworks */,
+				FF4131F32569737500B1CBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookworm;
+			productName = Bookworm;
+			productReference = FF4131F52569737500B1CBE0 /* Bookworm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF41320A2569737600B1CBE0 /* BookwormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4132222569737600B1CBE0 /* Build configuration list for PBXNativeTarget "BookwormTests" */;
+			buildPhases = (
+				FF4132072569737600B1CBE0 /* Sources */,
+				FF4132082569737600B1CBE0 /* Frameworks */,
+				FF4132092569737600B1CBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF41320D2569737600B1CBE0 /* PBXTargetDependency */,
+			);
+			name = BookwormTests;
+			productName = BookwormTests;
+			productReference = FF41320B2569737600B1CBE0 /* BookwormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF4132152569737600B1CBE0 /* BookwormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4132252569737600B1CBE0 /* Build configuration list for PBXNativeTarget "BookwormUITests" */;
+			buildPhases = (
+				FF4132122569737600B1CBE0 /* Sources */,
+				FF4132132569737600B1CBE0 /* Frameworks */,
+				FF4132142569737600B1CBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4132182569737600B1CBE0 /* PBXTargetDependency */,
+			);
+			name = BookwormUITests;
+			productName = BookwormUITests;
+			productReference = FF4132162569737600B1CBE0 /* BookwormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4131ED2569737500B1CBE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FF4131F42569737500B1CBE0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FF41320A2569737600B1CBE0 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FF4131F42569737500B1CBE0;
+					};
+					FF4132152569737600B1CBE0 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FF4131F42569737500B1CBE0;
+					};
+				};
+			};
+			buildConfigurationList = FF4131F02569737500B1CBE0 /* Build configuration list for PBXProject "Bookworm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4131EC2569737500B1CBE0;
+			productRefGroup = FF4131F62569737500B1CBE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4131F42569737500B1CBE0 /* Bookworm */,
+				FF41320A2569737600B1CBE0 /* BookwormTests */,
+				FF4132152569737600B1CBE0 /* BookwormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4131F32569737500B1CBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4132002569737600B1CBE0 /* Preview Assets.xcassets in Resources */,
+				FF4131FD2569737600B1CBE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4132092569737600B1CBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4132142569737600B1CBE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4131F12569737500B1CBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4132022569737600B1CBE0 /* Persistence.swift in Sources */,
+				FF25F230256981BD00B32A87 /* DetailView.swift in Sources */,
+				FF4132052569737600B1CBE0 /* Bookworm.xcdatamodeld in Sources */,
+				FF25F22B2569803100B32A87 /* EmojiRatingView.swift in Sources */,
+				FF4131FB2569737500B1CBE0 /* ContentView.swift in Sources */,
+				FF25F22625697EAF00B32A87 /* RatingView.swift in Sources */,
+				FF4131F92569737500B1CBE0 /* BookwormApp.swift in Sources */,
+				FF25F22125697B7E00B32A87 /* AddBookView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4132072569737600B1CBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4132102569737600B1CBE0 /* BookwormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4132122569737600B1CBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF41321B2569737600B1CBE0 /* BookwormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF41320D2569737600B1CBE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4131F42569737500B1CBE0 /* Bookworm */;
+			targetProxy = FF41320C2569737600B1CBE0 /* PBXContainerItemProxy */;
+		};
+		FF4132182569737600B1CBE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4131F42569737500B1CBE0 /* Bookworm */;
+			targetProxy = FF4132172569737600B1CBE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF41321D2569737600B1CBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF41321E2569737600B1CBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4132202569737600B1CBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bookworm/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Z33772VE8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Bookworm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.averyvine.Bookworm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF4132212569737600B1CBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bookworm/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Z33772VE8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Bookworm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.averyvine.Bookworm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF4132232569737600B1CBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z33772VE8;
+				INFOPLIST_FILE = BookwormTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.averyvine.BookwormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookworm.app/Bookworm";
+			};
+			name = Debug;
+		};
+		FF4132242569737600B1CBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z33772VE8;
+				INFOPLIST_FILE = BookwormTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.averyvine.BookwormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookworm.app/Bookworm";
+			};
+			name = Release;
+		};
+		FF4132262569737600B1CBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z33772VE8;
+				INFOPLIST_FILE = BookwormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.averyvine.BookwormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bookworm;
+			};
+			name = Debug;
+		};
+		FF4132272569737600B1CBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z33772VE8;
+				INFOPLIST_FILE = BookwormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.averyvine.BookwormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bookworm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4131F02569737500B1CBE0 /* Build configuration list for PBXProject "Bookworm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF41321D2569737600B1CBE0 /* Debug */,
+				FF41321E2569737600B1CBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF41321F2569737600B1CBE0 /* Build configuration list for PBXNativeTarget "Bookworm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4132202569737600B1CBE0 /* Debug */,
+				FF4132212569737600B1CBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4132222569737600B1CBE0 /* Build configuration list for PBXNativeTarget "BookwormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4132232569737600B1CBE0 /* Debug */,
+				FF4132242569737600B1CBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4132252569737600B1CBE0 /* Build configuration list for PBXNativeTarget "BookwormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4132262569737600B1CBE0 /* Debug */,
+				FF4132272569737600B1CBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF4132032569737600B1CBE0 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF4132042569737600B1CBE0 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = FF4132042569737600B1CBE0 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF4131ED2569737500B1CBE0 /* Project object */;
+}
