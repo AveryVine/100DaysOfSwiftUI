@@ -16,5 +16,5 @@ Note that the first 15 days teach Swift, not SwiftUI. I opted to skip these less
 | **Day 23: Moonshot**<br><br> An application for viewing details about various NASA missions and their crewmembers. | ![Moonshot](Assets/Moonshot.png) |
 | **Day 24: Drawing**<br><br> A test application that demonstrates how to draw shapes on screen an animate them. | ![Drawing](Assets/Drawing.png) |
 | **Day 25: Cupcake Corner**<br><br> An application for ordering cupcakes, demonstrating how to send and receive `Codable` JSON data over the Internet. | ![Cupcake Corner](Assets/CupcakeCorner.png) |
-| **Day 25: Cupcake Corner**<br><br> An application for ordering cupcakes, demonstrating how to send and receive `Codable` JSON data over the Internet. | ![Cupcake Corner](Assets/CupcakeCorner.png) |
 | **Day 26: Bookworm**<br><br> An application for tracking books and their reviews, using Core Data to persist the contents. | ![Bookworm](Assets/Bookworm.png) |
+| **Day 27: CoreDataProject**<br><br> A technique application that investigates more of the complex aspects of Core Data. | ![CoreDataProject](Assets/CoreDataProject.png) |
